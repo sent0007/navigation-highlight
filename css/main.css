@@ -57,7 +57,12 @@ h2{
   background-color:#cc1465;
 }
 
+.nav .current {
+  background-color:#b20953;
+}
+
 img {
+  display: inline-block;
   width: 100%;
 }
 
@@ -68,7 +73,7 @@ figure{
 figcaption {
   line-height: 1.5;
   font-family: Georgia, serif;
-  padding: .75rem 0;
+  padding: .75em 0;
 }
 
 main {
@@ -85,4 +90,8 @@ background-color: #ffe500;
 text-align: center;
 padding: .75em;
 font-family: Georgia, serif;
+}
+
+small {
+  font-size: .75rem;
 }
